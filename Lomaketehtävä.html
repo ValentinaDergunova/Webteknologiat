@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lomaketehtävä</title>
+</head>
+<body>
+    <h1>Lomake</h1>
+    <form>
+        <fieldset style="background-color: antiquewhite;">
+            <legend><b>Contact information:</b></legend>
+            <table>
+            <tr>
+                <td><label for="fname">First name:</label><td>
+                <td><input type="text" id="fname" name="fname"><td>
+                <td><label>Preferred contact method:</label></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last name:</label><td>
+                <td><input type="text" id="lname" name="lname"></td>
+                <td><input type="checkbox"></td>
+                <td><label>Email</label></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label><td>
+                <td><input type="email" id="email" name="email"></td>
+                <td><input type="checkbox"></td>
+                <td><label>Telephone</label></td>
+            </tr>
+            <tr>
+                <td><label for="tel">Telephone:</label><td>
+                <td><input type="tel" id="tel" name="tel"></td>
+            </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset style="background-color: antiquewhite;">
+            <legend><b>Feedback:</b></legend>
+            <table>
+                <tr>
+                    <td><label for="massege">Messege subject:</label><td>
+                    <td><input type="text" id="massege" name="massege"></td>
+                </tr>
+            </table>
+            <br>
+            <textarea rows="10" cols="50"></textarea><br>
+            <br>
+            <table>
+                <tr>
+                    <td><label for="file">Attach a file:</label></td>
+                    <td><input type="file" value="Choose file"></td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Send">
+        </fieldset>
+    </form>
+</body>
+</html>
