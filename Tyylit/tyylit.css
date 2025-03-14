@@ -1,0 +1,17 @@
+body{
+    background-color: azure;
+    width: 60%;
+    margin:auto;
+}
+.content{
+    background-color: #d9f3ea;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+img {
+    width: 400px; height: 260px;
+}
