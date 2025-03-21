@@ -2,11 +2,11 @@
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Lomake-esimerkki</title>
+    <title>Flex lomake</title>
     <link rel="stylesheet" href="Tyylit/tyylit.css"
 </head>
 <body>
-    <h1>Lomake-esimerkki</h1>
+    <h1>Flex lomake esimerkki</h1>
     <form>
         <fieldset>
             <legend>Henkilötiedot</legend>
@@ -31,10 +31,18 @@
         </fieldset>
 
         <fieldset>
-            <legend>Kerro itsestäsi:</legend>
+            <legend>Kerro itsestäsi</legend>
+            <div class="conteiner">
+                <div class="input-container"> 
+                    <textarea rows="10"></textarea>
+            </div>
+            <div class="input-container"> 
+                <input type="file">
+                <input type="button" value="Lähetä">
+            </div>
+        </div>
             <textarea rows="10" cols="50"></textarea><br>
-            <input type="file">
-            <input type="button" value="Lähetä">
+            <input type="file" value="Choose File">
         </fieldset>
     </form>
 </body>
