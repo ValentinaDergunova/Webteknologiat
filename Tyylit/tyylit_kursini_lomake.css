@@ -1,0 +1,108 @@
+body{
+    background-color:cornflowerblue;
+    width: 60%;
+    margin:auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content{
+    width: 565px;
+    background-color:aliceblue;
+    padding: 10px;
+}
+
+.content_kursit{
+    width: 520px;
+    background-color:aliceblue;
+    padding: 10px;
+}
+
+h1, h2, legend{
+    color: cornflowerblue;
+    margin: 10px;
+}
+
+legend{
+    font-size: large;
+    font-weight: 600;
+}
+
+fieldset{
+    border:1.5px solid cornflowerblue;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+table,td{
+    background-color: cornflowerblue;
+    margin: 10px;
+    color: aliceblue;
+    border: 3px solid cornflowerblue;
+    border-radius: 5px;
+}
+
+table{
+    width: 500px;
+}
+
+input[id=message]{
+    width: 290px;
+}
+
+input[type=text], input[type=checkbox], input[type=email], input[type=tel], textarea {
+    border-radius: 5px;
+    border-color: rgb(171, 184, 239);
+}
+
+textarea{
+    margin: 10px;
+    grid-row: 10;
+    column-gap: 65;
+}
+
+input[type=file]::file-selector-button{
+    background-color:aliceblue;
+    color:cornflowerblue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border-color: rgb(171, 184, 239);
+}
+
+input[type=submit]{
+
+    background-color:cornflowerblue;
+    border-color: cornflowerblue;
+    border-radius: 5px;
+    color:aliceblue;
+    font-size: large;
+    font-weight: 600;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+p, h4{
+    margin: 10px;
+}
+
+table.mytable{
+    background-color:aliceblue;
+    margin-top: 20px;
+}
+
+th{
+    color: cornflowerblue;
+    font-size: large;
+    text-align: left;
+}
+
+a{
+    color: cornflowerblue;
+}
+
