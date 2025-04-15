@@ -55,13 +55,6 @@ function change(iconID) {
     }
 }
 
-$(document).ready(function(){
-    $(".btn1").click(function(){
-      $("#name").hide();
-    });
-    $(".btn2").click(function(){
-      $("#name").show();
-    });
-  });
+
 
 
